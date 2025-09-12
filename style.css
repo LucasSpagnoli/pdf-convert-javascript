@@ -56,10 +56,13 @@ body {
   color: white;
   font-family: 'Montserrat';
   background-color: rgba(0, 0, 0, 0.206);
+  transition: all 0.2s ease;
 }
 
 .nameInput:focus {
+  background-color: rgba(0, 0, 0, 0.428);
   outline: none;
+  transition: all 0.2s ease;
 }
 
 .btn-custom {

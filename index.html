@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conversor para PDF</title>
+    <link rel="shortcut icon" href="./imgs/icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="style.css"> <!-- CSS local -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" referrerpolicy="no-referrer">
+    </script>
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="upload-card">
+                        <h1 class="mb-4">Transforme arquivos em PDF</h1>
+                        <div class="upload-area mb-4">
+                            <p class="mb-2">Arraste e solte suas imagens ou arquivos TXT aqui</p>
+                            <small>ou clique para selecionar</small>
+                            <input type="file" class="input-arq form-control mt-3" multiple accept=".txt,image/*">
+                        </div>
+
+                        
+                        <input type="text" name="text" id="fileName" class="nameInput" placeholder="Nome do pdf">
+                        <button class="btn btn-custom mt-3 w-75">Converter para PDF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span class="block text-sm text-white sm:text-center"><a href=""
+                class="linha text-decoration-none text-white">Lucas Spagnoli</a></span>
+    </footer>
+
+</body>
+
+</html>

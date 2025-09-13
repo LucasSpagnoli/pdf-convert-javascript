@@ -87,10 +87,10 @@ btn.addEventListener('click', async () => {
             firstPage = false
         })
 
-        console.log(pdf)
         pdf.save(`${(fileName) ? fileName : 'novoPDF'}.pdf`);
     } catch (error) {
         console.error('F:', error)
     }
-    input.value=''
+
+    input.value='';
 })

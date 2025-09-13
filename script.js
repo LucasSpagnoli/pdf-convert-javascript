@@ -92,4 +92,5 @@ btn.addEventListener('click', async () => {
     } catch (error) {
         console.error('F:', error)
     }
+    input.value=''
 })
